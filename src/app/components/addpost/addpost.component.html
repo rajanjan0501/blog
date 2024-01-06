@@ -1,0 +1,32 @@
+
+
+<div class="main-area">
+    <div class="content-area">
+    <div class="header">
+    <h1>Create a new Post</h1>
+    <hr />
+    </div>
+    <div class="container">
+    <!--Add product form-->
+    <div class="form-area">
+    <h3>Add User's Info</h3>
+    <form (ngSubmit)="onSubmit(userForm.value)" #userForm="ngForm">
+    <label>username</label>
+    <input type="text" name="name" ngModel />
+     
+              <label>Image</label>
+    <input type="text" name="image" ngModel />
+    <label>Desc</label>
+    <input type="text" name="description" ngModel />
+     
+             
+     
+              <input type="submit" value="Login" />
+    </form>
+    </div>
+     
+   
+  
+    </div>
+    </div>
+    </div>

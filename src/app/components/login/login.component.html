@@ -1,0 +1,31 @@
+
+
+
+<div class="main-area">
+    <div class="content-area">
+    <div class="header">
+    <h1>Login Page</h1>
+    <hr />
+    </div>
+    <div class="container">
+    <!--Add product form-->
+    <div class="form-area">
+    <h3>Create Account</h3>
+    <form (ngSubmit)="onSubmit(studentForm.value)" #studentForm="ngForm">
+    <label>username(lopanath)</label>
+    <input type="text" name="username" ngModel />
+     
+              <label>Password(lopa123)</label>
+    <input type="text" name="password" ngModel />
+     
+             
+     
+              <input type="submit" value="Login" />
+    </form>
+    </div>
+     
+   
+  
+    </div>
+    </div>
+    </div>
