@@ -7,6 +7,6 @@ export class LoginService {
 
   constructor() { }
 
-  name:string="lopanath";
-  password:string="lopa123"
+  name:string="anjan";
+  password:string="anjan"
 }
